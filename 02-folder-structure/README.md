@@ -1,15 +1,35 @@
 # Understanding the Folder Structure
 
-### Explanation of System Directories
+## Basic Commands
 
-### **Symbolic Links (Less Significant)**
+```bash
+ls -ltr
+sudo su -
+diif
+```
+
+---
+
+## Explanation of System Directories
+
+### Binaries
+
+=> binaries – commnds = admin (sbin) → /usr/sbin, non-admin (bin) /usr/bin
+
+### Symbolic Links (Less Significant)
+
 | Directory | Description |
 |-----------|-------------|
 | `/sbin -> /usr/sbin` | System binaries for administrative commands (linked to `/usr/sbin`). |
 | `/bin -> /usr/bin` | Essential user binaries (linked to `/usr/bin`). |
 | `/lib -> /usr/lib` | Use by linux kernal not by user , Shared libraries and kernel modules (linked to `/usr/lib`). |
 
-### **Important System Directories**
+=> shortcut for => sbin for usr/sbin , bin for usr/lib , lib for usr/bin
+
+---
+
+## Important System Directories
+
 | Directory | Description |
 |-----------|-------------|
 | `/boot` | Stores files needed for booting the system (not relevant in containers). |
@@ -17,7 +37,21 @@
 | `/var` | Stores logs, caches, and temporary files that change frequently. |
 | `/etc` | Stores system configuration files. |
 
-### **User & Application-Specific Directories**
+### `/var`
+
+=> var for logs files
+
+### `/etc`
+
+=> `ls /etc/` = you have a lot of system configuraction file (in windows c:/)
+
+- `/etc/passwd` = by using this we can change password any user of linux \
+- `os-release` – informaction about the you OS
+
+---
+
+## User & Application-Specific Directories
+
 | Directory | Description |
 |-----------|-------------|
 | `/home` | Default location for user home directories. |
@@ -25,7 +59,26 @@
 | `/srv` | Holds data for services like web servers (rarely used in containers). |
 | `/root` | Home directory for the root user. |
 
-### **Temporary & Volatile Directories**
+### `/srv`
+
+=> srv for server ex: web-server
+
+### `/opt`
+
+=> opt is very important folder in linux environment
+
+- custom tool, executable things, any shall scripts we can place them in `/opt/custom tool`
+
+### `/root`
+
+=> /root = root ki home directory direct /root hi hai
+
+---
+
+## Temporary & Volatile Directories
+
+=> temporory or voatile file or folder – proc,dev,sys,tmp
+
 | Directory | Description |
 |-----------|-------------|
 | `/tmp` | Temporary files (cleared on reboot). |
@@ -34,9 +87,28 @@
 | `/sys` | Virtual filesystem for hardware and kernel information. |
 | `/dev` | Contains device files (e.g., `/dev/null`, `/dev/sda`). |
 
-### **Mount Points**
+### `/run`
+
+=> /run = basically stores the runtime data of the proccess.
+
+---
+
+## Mount Points
+
 | Directory | Description |
 |-----------|-------------|
 | `/mnt` | Temporary mount point for external filesystems. |
 | `/media` | Mount point for removable media (USB, CDs). |
 | `/data` | Likely your **mounted volume** from Windows (`C:/ubuntu-data`). |
+
+### `/data`
+
+=> /data =
+
+if I want to share data with other people we can put in this , I have data releted billing informaction like cloud cost
+
+---
+
+## `$PATH`
+
+=> $PATH – jab hum koi bhi command chalate hai tab linux ko kese pata chalta hai ki yehi karna hai = ex. You can check which ls
