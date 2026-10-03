@@ -43,7 +43,7 @@ cat /etc/shadow - to see created password but password will come in encrypated f
 example : as linux admin kya hum ye password decrypt kar sakte hai - ans-no even you have access of server
 ```
 
-### Enforcing Password Policies
+### Enforcing Password Policies - passwords should chnage in every 90 days
 - **Password expiration**: Set password expiry days
   ```bash
   chage -M 90 username
