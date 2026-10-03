@@ -21,7 +21,7 @@ diif
 | Directory | Description |
 |-----------|-------------|
 | `/sbin -> /usr/sbin` | System binaries for administrative commands generally run with Linux administrator privileges. (linked to `/usr/sbin`). |
-| `/bin -> /usr/bin` | Essential user binaries (linked to `/usr/bin`). |
+| `/bin -> /usr/bin` | Essential user binaries user use in daily life (linked to `/usr/bin`). |
 | `/lib -> /usr/lib` | Use by linux kernal not by user , Shared libraries and kernel modules (linked to `/usr/lib`). |
 
 => shortcut for => sbin for usr/sbin , bin for usr/lib , lib for usr/bin
