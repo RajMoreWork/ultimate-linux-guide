@@ -51,7 +51,7 @@ diif
 => `ls /etc/` = you have a lot of system configuraction file (in windows c:/)
 
 - `/etc/passwd` = by using this we can change password any user of linux \
-- `os-release` – informaction about the you OS
+- `/etc# cat os-release` – informaction about the you OS
 
 ---
 
