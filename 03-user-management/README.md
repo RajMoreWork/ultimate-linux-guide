@@ -15,7 +15,7 @@ To create a new user in Linux, use:
 ### `useradd` Command (For most Linux distributions)
 ```bash
 useradd username
-vim /etc/passwd - to check user is created
+vim or cat /etc/passwd - to check user is created
 ```
 This creates a user without a home directory.
 
