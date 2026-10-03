@@ -39,6 +39,8 @@ This is an interactive command that asks for a password and additional details.
 To set or change a user’s password:
 ```bash
 passwd username
+cat /etc/shadow - to see created password but password will come in encrypated formate
+example : as linux admin kya hum ye password decrypt kar sakte hai - ans-no even you have access of server
 ```
 
 ### Enforcing Password Policies
