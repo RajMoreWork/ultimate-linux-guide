@@ -52,6 +52,7 @@ diif
 
 - `/etc/passwd` = by using this we can change password any user of linux \
 - `/etc# cat os-release` – informaction about the you OS
+- etc like is setting on your laptop or mobile folder
 
 ---
 
