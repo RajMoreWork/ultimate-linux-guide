@@ -33,10 +33,12 @@ diif
 | Directory | Description |
 |-----------|-------------|
 | `/boot` | Stores files needed for booting the system (not relevant in containers). |
+
 | `/usr` | Mainly stores programs, libraries, and other files used by the system and users./usr/bin → user commands/programs
-/usr/sbin → administrative commands
-/usr/lib → libraries required by programs
-/usr/share → shared documentation, configuration-like data, etc.. |
+           /usr/sbin → administrative commands
+           /usr/lib → libraries required by programs
+           /usr/share → shared documentation, configuration-like data, etc.. |
+           
 | `/var` | Stores logs, caches, and temporary files that change frequently. |
 | `/etc` | Stores system configuration files. |
 
