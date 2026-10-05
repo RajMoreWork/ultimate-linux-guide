@@ -123,3 +123,16 @@ Then add:
 ```bash
 username ALL=(ALL) NOPASSWD: /path/to/command
 ```
+👥 Existing users
+cat /etc/passwd
+
+Sirf usernames:
+
+cut -d: -f1 /etc/passwd
+
+👥 Existing groups
+cat /etc/group
+
+Sirf group names:
+
+cut -d: -f1 /etc/group
