@@ -21,7 +21,8 @@ diif
 | Directory | Description |
 |-----------|-------------|
 | `/sbin -> /usr/sbin` | System binaries for administrative commands generally run with Linux administrator privileges. (linked to `/usr/sbin`). systemctl, journalctl, df, du, top, ps, ss, ip, apt, chmod.|
-| `/bin -> /usr/bin` | Essential user binaries user use in daily life (linked to `/usr/bin`). |
+| `/bin -> /usr/bin` | Essential user binaries user use in daily life (linked to `/usr/bin`). kuch commands Linux Administrator aur normal user dono use karte hain. ls, cp, mv, rm, mkdir, cat, touch, pwd, grep, chmod, chown, bash, date, find
+|
 | `/lib -> /usr/lib` | Use by linux kernal not by user , Shared libraries and kernel modules (linked to `/usr/lib`). |
 
 => shortcut for => sbin for usr/sbin , bin for usr/lib , lib for usr/bin
